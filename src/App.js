@@ -22,6 +22,7 @@ export default function Multi() {
           options={colorOptions}
           onChange={handleChange}
         />
+        <div className="selected-inputs">{selectedOptions.join(", ")}</div>
       </div>
     </div>
   );

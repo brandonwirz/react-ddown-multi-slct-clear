@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .dropdown {
   display: flex;
   align-items: center;
@@ -6,4 +9,7 @@
 }
 .content {
   width: 800px;
+}
+.selected-inputs {
+  display: block;
 }
