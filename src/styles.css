@@ -1,0 +1,9 @@
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.content {
+  width: 800px;
+}
