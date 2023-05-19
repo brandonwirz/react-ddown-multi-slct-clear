@@ -1,6 +1,5 @@
 import React from "react";
 import Select from "react-select";
-// import makeAnimated from "react-select/animated";
 import { colorOptions } from "./data";
 import "./styles.css";
 
