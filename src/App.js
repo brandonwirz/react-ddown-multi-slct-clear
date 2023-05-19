@@ -8,7 +8,7 @@ export default function Multi() {
 
   const handleChange = (e) => {
     setSelectedOptions(
-      Array.isArray(e) ? e.map((colorOpt) => colorOpt.label) : []
+      Array.isArray(e) ? e.map((colorOpt) => colorOpt.label) : ""
     );
   };
 
@@ -17,12 +17,12 @@ export default function Multi() {
       <div className="content">
         <Select
           closeMenuOnSelect={false}
-          defaultValue={[colorOptions[4], colorOptions[5]]}
+          // defaultValue={[colorOptions[4], colorOptions[5]]}
           isMulti
           options={colorOptions}
           onChange={handleChange}
         />
-        <div className="selected-inputs">{selectedOptions.join(", ")}</div>
+        <div className="selected-inputs">{selectedOptions}</div>
       </div>
     </div>
   );
