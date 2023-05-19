@@ -8,7 +8,7 @@ export default function Multi() {
 
   const handleChange = (e) => {
     setSelectedOptions(
-      Array.isArray(e) ? e.map((colorOpt) => colorOpt.label) : ""
+      Array.isArray(e) ? e.map((colorOpt) => colorOpt.label + " ") : []
     );
   };
 
